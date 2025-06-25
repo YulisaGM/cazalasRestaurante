@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html 
+body {
+    color: black;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(233, 237, 240);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0;
+    padding: 0;
+
+    }
+
+.barra_navegacion {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(233, 237, 240);
+    display: flex;
+    justify-content:space-between;
+    height: 70px;
+    align-items: center;
+    margin:0;
+    padding: 0 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.barra_navegacion a{
+    color: rgb(98, 89, 89);
+    text-decoration: 0;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-left: 30px;
+    }
+
+.barra_navegacion img{
+
+    margin-right: 30px;
+}
+
+/*slide-bar*/
+.carousel-item h2 {
+    font-weight: bold;
+    text-align:center;
+  
+    
+}
+.carousel-item h4{
+    font-weight: bold;
+}
+
+
+#pagina_inicio h1 {
+    font-family: cursive;
+    font-weight: bolder 900;
+}
+
+
+.carousel-item .active {
+    height: 500px;
+  overflow: hidden;
+}
+
+.carousel-item img {
+height: 500px;
+object-fit: cover;
+}
+
+.carousel-caption {
+position: relative;
+bottom: 20%;
+left: 50px;
+color: white;
+}
+
+.carousel-caption{
+    bottom: 1.25rem;
+    padding-bottom: 20px;
+}
+
+
+/*Formulario*/
+.formulario-registro {
+    width: 400px;
+    background-color: rgb(67, 59, 59);
+    color: antiquewhite;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 6px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.formulario-registro h3 {
+    font-size: 30px;
+    margin-bottom: 40px
+}
+
+
+.boton-enviar {
+    background-color:rgb(171, 155, 155);
+    color:white;
+    width: 20%;
+    padding: 4px;
+    border-radius: 7px;
+    font-size: 0.9rem;
+    pointer-events: painted;
+
+}
+
+.boton-enviar:hover{
+
+    text-decoration:underline;
+    background-color:rgb(126, 100, 100) /* Ligero fondo al hover */
+}
+
+.boton-enviar:active{
+ transform: translateY(1px);
+}
+
+/*menu*/
+  
+h1 {
+    text-align: center;
+}
+
+h4 {
+    color: rgb(97, 88, 88);
+}
+
+
+/*footer*/
+
+.main-footer {
+    background-color: rgb(5, 6, 6);
+    color: white;
+   display: flex;
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 50px;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+/*iconos del footer*/
+.social-icono {
+    list-style: none; 
+    padding: 0;       
+    margin: 20px 0;  
+     display: flex;    
+    justify-content: center;
+    gap: 25px; 
+    align-items: center;
+    }
+
+    .icono {
+    color: white;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: transparent; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; /* Suaviza las transiciones de hover */
+}
+
+.icono:hover {
+    transform: translateY(-7px); /* Efecto de flotar */
+    background-color: rgba(255, 255, 255, 0.094); /* Ligero fondo al hover */
+}
+
+.logo-nav img {
+    background-color: aliceblue;
+    border-radius: 20%;
+}
+
+/**/
+
+.servicios-comida p,h2 {
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 25px;
+}
+.grupo-servicios{
+    text-align: center;
+}
+.servicios h2 {
+    font-weight: bold;
+}
+
+.menu-hamburguesas h2{
+    text-align:left
+}
+ /*opciones de menu*/
+
+.carousel-item {
+  height: 500px; /* Establece una altura deseada */
+  object-fit: contain;
+  width: 100%; /* Asegura que siga tomando todo el ancho */
+  background-color: #f0f0f0; /* Opcional: color de fondo para el espacio vacío */
+}
